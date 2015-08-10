@@ -12,12 +12,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     // Do any additional setup after loading the view.
 }
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
+    
 
     // Update the view, if already loaded.
 }
@@ -27,6 +28,16 @@
     NSSpeechSynthesizer* speechSynthesizer = [[NSSpeechSynthesizer alloc] init];
     [speechSynthesizer startSpeakingString:[self.textbox stringValue]];
     
+}
+
+-(void) awakeFromNib {
+    @try {
+        NSApplicationPresentationOptions options = NSApplicationPresentationHideDock + NSApplicationPresentationHideMenuBar;
+        [NSApp setPresentationOptions:options];
+    }
+    @catch(NSException * exception) {
+        NSLog(@"Error.  Make sure you have a valid combination of options.");
+    }
 }
 
 

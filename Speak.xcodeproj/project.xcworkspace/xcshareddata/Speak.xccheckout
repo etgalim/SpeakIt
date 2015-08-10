@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>055053AD-D14B-4C71-A104-4BF8750E98FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Speak</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>63AC6B010F21C01F269A2A948909B2B98B99A9D8</key>
+		<string>https://github.com/etgalim/SpeakIt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Speak.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>63AC6B010F21C01F269A2A948909B2B98B99A9D8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/etgalim/SpeakIt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>63AC6B010F21C01F269A2A948909B2B98B99A9D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>63AC6B010F21C01F269A2A948909B2B98B99A9D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Speak</string>
+		</dict>
+	</array>
+</dict>
+</plist>
