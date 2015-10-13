@@ -27,6 +27,7 @@
     
     NSSpeechSynthesizer* speechSynthesizer = [[NSSpeechSynthesizer alloc] init];
     [speechSynthesizer startSpeakingString:[self.textbox stringValue]];
+    self.textbox.stringValue = @"";
     
 }
 
